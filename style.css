@@ -1,0 +1,101 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(85, 124, 85);
+    font-family: 'Roboto', sans-serif;
+}
+
+.calculator {
+    max-width: 450px;
+    border: 2px black solid;
+    border-radius: 20px;
+    margin: 200px auto;
+    padding: 30px;
+    background-color: rgb(27, 27, 27);
+}
+
+.screen {
+    padding: 20px;
+    border: 2px black solid;
+    margin-bottom: 20px;
+    background-color: rgb(148, 160, 148);
+    border-radius: 15px;
+    text-align: right;
+    font-size: 25px;
+}
+
+.buttons-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+}
+
+.clear,
+.delete {
+    grid-column: span 2;
+}
+
+.clear {
+    background-color: rgb(252, 70, 70);
+}
+
+.delete {
+    background-color: rgb(70, 70, 255);
+}
+
+.clear:hover {
+    background-color: rgb(255, 29, 29);
+    cursor: pointer;
+}
+
+.delete:hover {
+    background-color: rgb(29, 29, 255);
+    cursor: pointer;
+}
+
+.clear:active {
+    background-color: rgb(255, 21, 21);
+}
+
+.delete:active {
+    background-color: rgb(21, 21, 255);
+}
+
+button {
+    height: 60px;
+    border: 2px black solid;
+    border-radius: 15px;
+    background-color: rgb(179, 180, 179);
+    font-size: 25px;
+}
+
+button:hover {
+    background-color: rgb(136, 136, 136);
+    cursor: pointer;
+}
+
+button:active {
+    background-color: rgb(116, 116, 116);
+}
+
+.equals {
+    background-color: rgb(253, 100, 45);
+    color: white;
+}
+
+.equals:hover {
+    background-color: rgb(255, 82, 19);
+    cursor: pointer;
+}
+
+.equals:active {
+    background-color: rgb(255, 68, 0);
+}
+
+
