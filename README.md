@@ -19,14 +19,10 @@ Project to create my own take on a calculator using only HTML, CSS and Vanilla J
 * Git and GitHub
 * ESLint + Airbnb JavaScript Style Guide
 
-### Third party code
-
-* [Google Fonts](https://fonts.google.com/)
-
 ## Outcome
 
 * Used HTML5 **semantic elements** for better readability and structure.
-* Used CSS3 **flex** to create layout.
+* Used CSS3 **flex & grid** to create layout.
 * Used **Git** and **GitHub** for project management.
 * Tried to maintain **clean code**.
 * **Cross tested** on Firefox and Chromium based browsers.
